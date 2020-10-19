@@ -1,2 +1,41 @@
 # bork-frens
 A full stack React.js and Node.js application for dog owners who want a community to find doggy play pals for their four legged best friends.
+
+## Technologies Used
+- React.js
+- JavaScript ES6
+- Node.js
+- Express.js
+- PostgreSQL
+- SQL
+- Bootstrap 4
+- CSS3
+- HTML5
+- AWS EC2
+- Webpack
+- Babel
+- npm
+
+## Live Demo
+Live demo coming soon!
+
+## Features
+- User can use a drop down menu to login.
+- User retrieves all data from back end after login. :thumbsup:
+- User can navigate throughout the app from Home page. :thumbsup:
+- User can edit their profile page.
+- User can view list of messages from friends.
+- User can view list of friends :thumbsup:
+- User can view list of friend requests.
+- User can accept or deny friend requests.
+- User can navigate to messaging from friends list w/ selection of message icon. :thumbsup:
+- User can message other users.
+- User can view other user's profile.
+- User has mobile navigation access to visit any page in the app. :thumbsup:
+- User can see list of nearby users via Google Maps(currently static).
+- User can send friend request to other users.
+
+## Stretch Features
+- User can create an account.
+- User can delete account.
+- User can upload profile picture.
