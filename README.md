@@ -17,7 +17,7 @@ A full stack React.js and Node.js application for dog owners who want a communit
 - npm
 
 ## Live Demo
-Live demo coming soon!
+![bork-frens](/server/public/images/bork-frens.gif)
 
 ## Features
 - User can use a drop down menu to login.
