@@ -39,3 +39,18 @@ A full stack React.js and Node.js application for dog owners who want a communit
 - User can create an account.
 - User can delete account.
 - User can upload profile picture.
+
+## Gettung Started
+1. Clone the repository 
+```
+shell
+git clone https://borkfrens.jaimesandoval.net/
+```
+2. Install all dependencies with npm
+```
+npm install
+```
+3. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+``
+npm run dev
+```
