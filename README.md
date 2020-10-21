@@ -20,6 +20,9 @@ A full stack React.js and Node.js application for dog owners who want a communit
 ![bork-frens](/server/public/images/bork-frens.gif)
 
 ## Features
+
+:thumbsup: Features I personally worked on.
+
 - User can use a drop down menu to login.
 - User retrieves all data from back end after login. :thumbsup:
 - User can navigate throughout the app from Home page. :thumbsup:
