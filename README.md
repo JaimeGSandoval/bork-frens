@@ -17,6 +17,9 @@ A full stack React.js and Node.js application for dog owners who want a communit
 - npm
 
 ## Live Demo
+Try the application Live at https://borkfrens.jaimesandoval.net/
+
+## Preview
 ![bork-frens](/server/public/images/bork-frens.gif)
 
 ## Features
