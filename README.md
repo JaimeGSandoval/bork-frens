@@ -41,12 +41,12 @@ A full stack React.js and Node.js application for dog owners who want a communit
 - User can upload profile picture.
 
 ## Gettung Started
-1. Clone the repository 
+1. Clone the repository.
 ```shell
 git clone https://borkfrens.jaimesandoval.net/
 cd bork-frens
 ```
-2. Install all dependencies with npm
+2. Install all dependencies with npm.
 ```
 npm install
 ```
