@@ -16,9 +16,6 @@ A full stack React.js and Node.js mobile application for dog owners who want a c
 - Babel
 - npm
 
-## Live Demo
-Try the application Live at https://borkfrens.jaimesandoval.net/
-
 ## Preview
 ![bork-frens](/server/public/images/bork-frens.gif)
 
@@ -45,6 +42,9 @@ Try the application Live at https://borkfrens.jaimesandoval.net/
 - User can create an account.
 - User can delete account.
 - User can upload profile picture.
+
+## Live Demo
+Try the application Live at https://borkfrens.jaimesandoval.net/
 
 ## Gettung Started
 1. Clone the repository.
