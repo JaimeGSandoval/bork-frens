@@ -49,7 +49,7 @@ Try the application Live at https://borkfrens.jaimesandoval.net/
 ## Gettung Started
 1. Clone the repository.
 ```shell
-git clone https://borkfrens.jaimesandoval.net/
+git clone https://github.com/JaimeGSandoval/bork-frens
 cd bork-frens
 ```
 2. Install all dependencies with npm.
