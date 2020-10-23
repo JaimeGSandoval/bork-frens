@@ -46,7 +46,11 @@ Try the application Live at https://borkfrens.jaimesandoval.net/
 ## Preview
 ![bork-frens](/server/public/images/bork-frens.gif)
 
-## Gettung Started
+## System Requirements
+- npm 6 or higher
+- PostgreSQL 10 or higher
+
+## Getting Started
 1. Clone the repository.
 ```shell
 git clone https://github.com/JaimeGSandoval/bork-frens
@@ -61,7 +65,12 @@ npm install
 - Name the copied file to `.env`
 - Change the `.env` to your own credentials
 
-4. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+4. While in the root directory, import the example database
+```
+npm run db:import
+```
+
+5. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
 ```
 npm run dev
 ```
