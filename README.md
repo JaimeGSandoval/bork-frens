@@ -46,11 +46,12 @@ Try the application Live at https://borkfrens.jaimesandoval.net/
 ## Preview
 ![bork-frens](/server/public/images/bork-frens.gif)
 
-## System Requirements
+## Getting Started
+
+### System Requirements
 - npm 6 or higher
 - PostgreSQL 10 or higher
 
-## Getting Started
 1. Clone the repository.
 ```shell
 git clone https://github.com/JaimeGSandoval/bork-frens
