@@ -1,90 +1,79 @@
 # bork-frens
-A full stack application for dog owners who want a community to find doggy play pals for their fur babies.
+ 
+A full stack React.js and Node.js mobile application for dog owners who want a community to find doggy play pals for their four legged best friends.
 
 ## Technologies Used
-
-- React
-- Node.js
+- React.js
 - JavaScript ES6
+- Node.js
+- Express.js
+- PostgreSQL
+- SQL
+- Bootstrap 4
 - CSS3
 - HTML5
-- Express
-- PostgreSQL
-- Bootstrap 4
-- npm
+- AWS EC2
 - Webpack
 - Babel
-- Pgweb
-- AWS EC2
-- Figma
-- Meistertask
+- npm
 
 ## Live Demo
-
-Try the application live at [https://borkfrens.evelynpei.com/](https://borkfrens.evelynpei.com/)
+Try the application Live at https://borkfrens.jaimesandoval.net/
 
 ## Features
 
-#### :raised_hand: Features I personally worked on.
-- User can see dropdown menu of users to login - Back End.
-- User can see dropdown menu of users to login - Front End. :raised_hand:
-- User can navigate to homepage - Back End.
-- User can navigate to homepage - Front End.
-- User can edit own profile page - Back End.
-- User can edit own profile page - Front End.
-- User can view own profile page - Back End.
-- User can view own profile page - Front End.
-- User can view list of conversations - Back End.
-- User can view list of conversations - Front End.
-- User can view conversation with other user - Back End.
-- User can view conversation with other user - Front End.
-- User can view list of connection requests - Back End. :raised_hand:
-- User can view list of connection requests - Front End. :raised_hand:
-- User can accept or deny connection request - Back End. :raised_hand:
-- User can accept or deny connection request - Front End. :raised_hand:
-- User can view other user's profile - Back End. :raised_hand:
-- User can view other user's profile - Front End. :raised_hand:
-- User can request connection to other user - Back End. :raised_hand:
-- User can request connection to other user - Front End. :raised_hand:
-- User can see map (static) and number of nearby users - Back End. :raised_hand:
-- User can see map (static) and number of nearby users - Front End. :raised_hand:
-- User can see list of nearby users - Back End.
-- User can see list of nearby users - Front End.
-- User can navigate with side navigation menu - Front End.
-- User can navigate with navigation back button - Front End. :raised_hand:
+:thumbsup: Features I personally worked on.
 
-### Stretch Features
-- User can update account settings - Back End.
-- User can update account settings - Front End.
-- User can sign up for account - Back End.
-- User can sign up for account - Front End.
-- User can upload own profile picture - Back End.
-- User can upload own profile picture - Front End.
-- User can login to account with username and password - Back End.
-- User can login to account with username and password - Front End.
+- User can use a drop down menu to login.
+- User retrieves all data from back end after login. :thumbsup:
+- User can navigate throughout the app from Home page. :thumbsup:
+- User can edit their profile page.
+- User can view list of messages from friends.
+- User can view list of friends :thumbsup:
+- User can view list of friend requests.
+- User can accept or deny friend requests.
+- User can navigate to messaging from friends list w/ selection of message icon. :thumbsup:
+- User can message other users.
+- User can view other user's profile.
+- User has mobile navigation access to visit any page in the app. :thumbsup:
+- User can see list of nearby users via Google Maps(currently static).
+- User can send friend request to other users.
 
+## Stretch Features
+- User can create an account.
+- User can delete account.
+- User can upload profile picture.
 
 ## Preview
+![bork-frens](/server/public/images/bork-frens.gif)
 
-![borkfrens](/server/public/images/borkfrens.gif)
+## Getting Started
 
-### Getting Started
+### System Requirements
+- npm 6 or higher
+- PostgreSQL 10 or higher
 
 1. Clone the repository.
-
-    ```shell
-    git clone https://github.com/pei-evelyn/bork-frens
-    cd sgt-react
-    ```
-
+```shell
+git clone https://github.com/JaimeGSandoval/bork-frens
+cd bork-frens
+```
 2. Install all dependencies with npm.
+```
+npm install
+```
+3. Create Environment Variables
+- Copy the ```.env.example``` file
+- Name the copied file to `.env`
+- Change the `.env` to your own credentials
 
-    ```shell
-    npm install
-    ```
+4. While in the root directory, import the example database
+```
+npm run db:import
+```
 
-3. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
-
-    ```shell
-    npm run dev
-    ```
+5. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+```
+npm run dev
+```
+>>>>>>> 7af5fe349a0a70de5414c3be0265536b5a284303
